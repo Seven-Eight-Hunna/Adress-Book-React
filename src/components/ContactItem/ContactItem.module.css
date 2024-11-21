@@ -1,0 +1,47 @@
+.contact__item {
+  display: flex;
+  width: 715px;
+  height: 90px;
+  border: 1px solid rgb(120, 120, 120, 0.5);
+  border-radius: 10px;
+  padding: 5px 10px 5px 5px;
+}
+
+.contact__image {
+  width: 70px;
+  height: 77px;
+  background-color: #d6d6d6;
+  border-radius: 10px;
+}
+
+.contact__info {
+  display: flex;
+  gap: 52px;
+  width: max-content;
+  display: flex;
+  align-items: center;
+}
+
+.contact__block {
+  display: flex;
+  font-family: Inter;
+}
+
+.first__info {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  gap: 10px;
+}
+
+.second__info {
+  display: flex;
+  align-items: center;
+  gap: 72px;
+}
+
+.third__info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
